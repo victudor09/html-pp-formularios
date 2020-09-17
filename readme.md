@@ -88,7 +88,7 @@ Accesorios: selector multiple
 
   - Foco
 
-¿Qué marca era?: Autocompletado
+¿Qué marca era?: Lista de datos
 
   - specialized
 
