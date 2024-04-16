@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Form El Club Viejuner</title>
+</head>
+<body>
+<h1>El Club Viejuner</h1>
+
+<form action="/html-pp-formularios/index.html">
+    <h2> Tú: </h2>
+        <label for="name">Nombre:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="sname">Apellidos:</label><br>
+        <input type="text" id="sname" name="sname"><br><br>
+
+        <label for="age">Edad:</label><br>
+        <input type="number" id="age" name="age"><br><br>
+
+        <p>Sexo:</p>
+
+            <input type="radio" id="male" name="Sexo" value="Hombre">
+            <label for="male">Hombre</label> <br>
+            
+            <input type="radio" id="female" name="Sexo" value="Mujer">
+            <label for="female">Mujer</label>
+            <br><br>
+
+        <input type="checkbox" name="viejuner" id="viejuner" value="viejuner">
+        <label for="viejuner">Me siento Viejuner</label>
+        <br><br>
+
+        <p>Escribe algo sobre tí:</p>
+        <textarea name="message" style="width:50%; height:200px;"></textarea>
+        <br> <br>
+    <h2>Tus circunstancias:</h2>
+        <label for="email">Correo electrónico:</label><br>
+        <input type="email" id="email" name="email"> <br><br>
+
+        <label for="tel">Teléfono:</label><br>
+        <input type="tel" id="tel" name="tel"> <br><br>
+
+        <input type="submit" value="Submit">
+</form>
+</body>
+</html>
